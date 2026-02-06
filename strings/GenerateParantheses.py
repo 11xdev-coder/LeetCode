@@ -1,3 +1,5 @@
+# string solution
+# DFS solution -> dfs/GenerateParantheses.py
 def solve(n: int) -> List[str]:
     def open(arr, pair, op, cl):
         pair_copy = pair[::]
